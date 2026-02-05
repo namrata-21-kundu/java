@@ -1,4 +1,4 @@
-package ass2;
+package basics;
 import java.util.Scanner;
 public class factorial {
     int num;

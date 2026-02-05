@@ -1,4 +1,4 @@
-package ass2;
+package basics;
 import java.util.Scanner;
 public class employee_sal {
     public static void main(String[] args){
