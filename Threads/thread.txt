@@ -1,0 +1,24 @@
+✍️ Extends Thread vs Implements Runnable
+🔵 Extending Thread class
+The class becomes a thread itself
+You override the run() method
+Thread is created by making an object of the class and calling start()
+Cannot extend any other class (no multiple inheritance)
+Less flexible and less reusable
+
+🟢 Implementing Runnable interface
+The class defines only the task (work)
+You override the run() method
+Thread is created separately using Thread class
+Can extend another class + implement Runnable
+More flexible and reusable
+
+| Feature         | Extends Thread       | Implements Runnable     |
+| --------------- | -------------------- | ----------------------- |
+| Type            | Class becomes thread | Class is only task      |
+| Thread creation | Direct               | Through `Thread` object |
+| Inheritance     | Not possible         | Possible                |
+| Reusability     | Less                 | More                    |
+| Recommended     | ❌                    | ✅                       |
+
+runnable preferred -> more flexible, reusable, allows multiple inheritance
