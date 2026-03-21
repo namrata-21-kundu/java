@@ -1,0 +1,46 @@
+Array Element Search
+Problem Statement
+Given an array of integers and a target value, find and return the index of the target value in the array. If the target value appears multiple times, return the index of the first occurrence. If the target value is not found in the array, return -1.
+Input Format
+
+The first line contains an integer n (1 ≤ n ≤ 10^5), the size of the array.
+The second line contains n space-separated integers representing the array elements.
+The third line contains an integer x, the target value to search for.
+
+Constraints
+
+1 ≤ n ≤ 10^5
+-10^9 ≤ array[i] ≤ 10^9
+-10^9 ≤ x ≤ 10^9
+
+Output Format
+Print a single integer: the index of the first occurrence of x in the array (0-indexed), or -1 if x is not found.
+Sample Input 1
+5
+10 20 30 40 50
+30
+Sample Output 1
+2
+Explanation 1
+The element 30 is found at index 2 (0-indexed).
+Sample Input 2
+6
+5 12 7 5 8 5
+5
+Sample Output 2
+0
+Explanation 2
+The element 5 appears at indices 0, 3, and 5. We return the first occurrence at index 0.
+Sample Input 3
+4
+1 2 3 4
+10
+Sample Output 3
+-1
+Explanation 3
+The element 10 is not present in the array, so we return -1.
+Time Limit
+1 second per test case
+Memory Limit
+256 MB
+
