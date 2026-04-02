@@ -1,4 +1,25 @@
+# Java Practice Repository ☕
+
 Hi folks!👋
-Currently I am learning Java, and I will be updating this repository with the programs which I will do.
-This repository is going to contain beginner level Java programs, and I will be upgrading those during my course of learning. It is going to be a beginner manual for me as well as for the ones viewing this. 
-Happy Coding✨
+This repository contains my Java practice programs and problem-solving exercises.  
+It includes basic concepts, logic-building problems, and small implementations to strengthen my Java skills.
+
+## 📌 Contents
+- Basic Java Programs
+- String Problems
+- Array Problems
+- OOP Concepts
+- Threads Concepts
+- Exception Handling
+- Sorting Problems
+- Miscellaneous Logic Building
+
+## 🎯 Purpose
+- Improve problem-solving skills  
+- Practice core Java concepts  
+- Build consistency in coding  
+
+## 🛠️ Tech Used
+- Java  
+- VS Code 
+- Git & GitHub  
