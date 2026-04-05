@@ -1,5 +1,4 @@
-//Class Person inherits Politician and Sportsman
-//Use constructors to calculate salary and display functions
+//Class Person inherits Politician and Sportsman, Use constructors to calculate salary and display functions
 import java.util.*;
 class Person{
     int income;
